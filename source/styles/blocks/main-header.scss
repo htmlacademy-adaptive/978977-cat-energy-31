@@ -1,0 +1,109 @@
+.main-header {
+  margin: 0 auto;
+  min-height: 65px;
+}
+
+.main-header__logo-wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    width: 708px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 25px 30px;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    padding: 64px 110px;
+  }
+}
+
+.main-header--index {
+  @media (min-width: $desktop-width) {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 694px;
+      top: 0;
+      right: 0;
+      background-image:
+        linear-gradient(to bottom, rgba(104, 183, 56, 0.85) 100%, #ffffff 10%),
+        image-set(
+        url("../../images/index-background-cat-d@1x.png") 1x,
+        url("../../images/index-background-cat-d@2x.png") 2x);
+      background-size: auto 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-color: #414045;
+      z-index: -1;
+    }
+
+    .nav-list__item--active::after {
+      background: #ffffff;
+    }
+  }
+}
+
+.main-header__container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  padding: 13px 20px 0;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 30px 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 55px 110px 0;
+  }
+}
+
+.main-header__logo-text {
+  padding-left: 6px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    height: 18px;
+    width: 101px;
+    padding-left: 0;
+    margin: 0;
+    gap: 13px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 21px;
+    width: 118px;
+  }
+}
+
+.main-header__logo {
+  display: flex;
+  padding: 13px 78px 13px 20px;
+  border-bottom: 1px solid $bg-basic-grey;
+  height: 40px;
+  align-items: center;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    gap: 14px;
+    border: none;
+    padding: 0;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    opacity: 0.6;
+  }
+}

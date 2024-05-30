@@ -1,0 +1,120 @@
+.show-more {
+  width: 280px;
+  padding: 77px 20px 25px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+  overflow-wrap: break-word;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d3d3d3;
+    width: 30px;
+    height: 2px;
+
+    @media (min-width: $tablet-width) {
+      width: 60px;
+      top: 80px;
+    }
+  }
+
+  &::before {
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    width: 250px;
+    padding: 160px 37px 40px;
+    margin-top: 82px;
+    border: 2px solid #f2f2f2;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 167px;
+    padding-top: 150px;
+    margin-top: 80px;
+    border: 2px solid #f2f2f2;
+  }
+}
+
+.show-more__title {
+  color: $secondary-color-text;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 24px;
+    width: 170px;
+    margin-bottom: 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 26px;
+  }
+}
+
+.show-more__description {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 23px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 82px;
+    width: 170px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 90px;
+  }
+}
+
+.show-more__buttun {
+  display: flex;
+  width: 92px;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 94px;
+  background-color: #f2f2f2;
+  color: $base-color-text;
+  text-decoration: none;
+
+  &:hover{
+    background-color: #5eaa2f;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-left: 79px;
+    padding-right: 79px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
