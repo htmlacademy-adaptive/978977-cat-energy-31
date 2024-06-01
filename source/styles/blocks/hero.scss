@@ -6,8 +6,8 @@
   background-image:
     linear-gradient(to top, #ffffff 178px, rgba(104, 183, 56, 0.85) 178px),
     image-set(
-    url("../../images/index-background-cat-m@1x.png") 1x,
-    url("../../images/index-background-cat-m@2x.png") 2x);
+      url("../../images/index-background-cat-m@1x.png") 1x,
+      url("../../images/index-background-cat-m@2x.png") 2x);
   background-size: contain;
   color: #ffffff;
   font-family: $primary-font;

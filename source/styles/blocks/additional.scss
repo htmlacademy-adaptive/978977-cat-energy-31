@@ -25,8 +25,8 @@
   background-image:
     linear-gradient(to bottom, rgba(104, 183, 56, 0.85) 100%, #ffffff 10%),
     image-set(
-    url("../../images/catalog-background-cat-m@1x.png") 1x,
-    url("../../images/catalog-background-cat-m@2x.png") 2x);
+      url("../../images/catalog-background-cat-m@1x.png") 1x,
+      url("../../images/catalog-background-cat-m@2x.png") 2x);
   background-repeat: no-repeat;
   background-position: center;
   width: 280px;
@@ -41,8 +41,8 @@
     background-image:
       linear-gradient(to bottom, rgba(104, 183, 56, 0.85) 100%, #ffffff 10%),
       image-set(
-      url("../../images/catalog-background-cat-m@1x.png") 1x,
-      url("../../images/catalog-background-cat-m@2x.png") 2x);
+        url("../../images/catalog-background-cat-m@1x.png") 1x,
+        url("../../images/catalog-background-cat-m@2x.png") 2x);
   }
 
   &::after {
@@ -65,8 +65,8 @@
     background-image:
       linear-gradient(to bottom, rgba(104, 183, 56, 0.85) 100%, #ffffff 10%),
       image-set(
-      url("../../images/catalog-background-cat-t@1x.png") 1x,
-      url("../../images/catalog-background-cat-t@2x.png") 2x);
+        url("../../images/catalog-background-cat-t@1x.png") 1x,
+        url("../../images/catalog-background-cat-t@2x.png") 2x);
     background-repeat: no-repeat;
     background-color: $bg-basic-green;
     background-size: cover;
@@ -78,8 +78,8 @@
     background-image:
       linear-gradient(to bottom, rgba(104, 183, 56, 0.85) 100%, #ffffff 10%),
       image-set(
-      url("../../images/catalog-background-cat-d@1x.png") 1x,
-      url("../../images/catalog-background-cat-d@2x.png") 2x);
+        url("../../images/catalog-background-cat-d@1x.png") 1x,
+        url("../../images/catalog-background-cat-d@2x.png") 2x);
     background-repeat: no-repeat;
     background-color: $bg-basic-green;
     background-size: cover;

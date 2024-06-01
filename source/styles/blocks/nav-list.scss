@@ -17,10 +17,7 @@
 
 .nav-list__item {
   min-height: 20px;
-  padding-top: 22px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 24px;
+  padding: 22px 15px 24px;
   overflow: visible;
   border-bottom: 1px solid $bg-basic-grey;
 
@@ -50,10 +47,7 @@
     &::after {
       content: "";
       position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      top: 36px;
+      inset: 36px 0 0;
       height: 2px;
       background: $bg-basic-green;
     }

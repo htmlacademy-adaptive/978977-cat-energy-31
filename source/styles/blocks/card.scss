@@ -4,10 +4,8 @@
   align-items: center;
   row-gap: 17px;
   border-top: 1px solid #ebebeb;
-  padding-top: 20px;
+  padding: 20px;
   padding-bottom: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 250px;
