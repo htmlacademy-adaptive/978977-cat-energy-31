@@ -146,8 +146,7 @@
   grid-template-columns: repeat(2, 115px);
   padding: 12px 0 17px;
   justify-content: space-between;
-  column-gap: 50px;
-  row-gap: 14px;
+  gap: 14px 50px;
   border-bottom: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
