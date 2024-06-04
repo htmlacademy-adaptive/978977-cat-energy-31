@@ -28,4 +28,12 @@
   line-height: 36px;
   font-weight: 400;
   color: #000000;
+  margin-top: 24px;
+  margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    margin-bottom: 95px;
+    padding-top: 18px;
+  }
 }

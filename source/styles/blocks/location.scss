@@ -13,7 +13,7 @@
 
 .location__container {
   position: relative;
-  padding-bottom: 362px;
+  padding-bottom: 340px;
 
   @media (min-width: $tablet-width) {
     padding-bottom: 400px;
@@ -28,12 +28,12 @@
 .location__text-wrapper {
   display: grid;
   place-content: center space-between;
-  padding-top: 6px;
+  padding-top: 27px;
   padding-bottom: 26px;
   grid-template-columns: repeat(2, 140px);
 
   @media (min-width: $tablet-width) {
-    padding: 32px 40px 60px;
+    padding: 32px 40px 43px;
     grid-template-columns: repeat(2, 165px);
   }
 
@@ -78,10 +78,9 @@
 }
 
 .location__address-city {
-  @media (min-width: $tablet-width) {
-    display: block;
-    padding-top: 19px;
-  }
+  line-height: 20px;
+  font-style: normal;
+  grid-area: 2/2/2;
 }
 
 .location__map {
