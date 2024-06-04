@@ -34,7 +34,7 @@
   background-size: cover;
   margin: 0 auto 35px;
 
-  @media (min-resolution: $tablet-width) {
+  @media (min-width: $tablet-width) {
     display: flex;
     min-height: 200px;
     justify-content: end;
@@ -54,7 +54,7 @@
     top: 59px;
     left: 50%;
     transform: translateX(-50%);
-    background-image: url("../../images/icons/icon_gift.svg");
+    background-image: url("../../icons/icon_gift.svg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -234,6 +234,15 @@
     padding: 10px 91px;
     grid-column: 4/5;
   }
+
+  &:hover {
+    background-color: #5eaa2f;
+  }
+
+  &:focus {
+    color: rgba($color: #ffffff, $alpha: 0.3);
+    background-color: #5eaa2f;
+  }
 }
 
 .additional__promo-text {
@@ -245,3 +254,4 @@
   padding-bottom: 43px;
   margin: 0;
 }
+

@@ -4,8 +4,7 @@
   align-items: center;
   row-gap: 17px;
   border-top: 1px solid #ebebeb;
-  padding: 20px;
-  padding-bottom: 25px;
+  padding: 20px 20px 25px;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 250px;
@@ -110,6 +109,15 @@
   padding: 10px 20px;
   text-align: center;
   cursor: pointer;
+
+  &:hover {
+    background-color: #5eaa2f;
+  }
+
+  &:focus {
+    color: rgba($color: #ffffff, $alpha: 0.3);
+    background-color: #5eaa2f;
+  }
 }
 
 .card__title-more {
@@ -129,7 +137,7 @@
     top: 0;
     width: 30px;
     height: 30px;
-    background-image: url("../../images/icons/stack.svg#plus");
+    background-image: url("../../icons/stack.svg#plus");
     background-repeat: no-repeat;
     background-size: cover;
 
