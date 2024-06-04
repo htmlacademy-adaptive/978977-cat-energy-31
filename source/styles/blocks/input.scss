@@ -1,0 +1,25 @@
+.input {
+  color: $base-color-text;
+  flex-grow: 1;
+
+  &:hover {
+    outline: 1px solid #cdcdcd;
+  }
+
+  &:focus {
+    outline: 2px solid $base-color-text;
+  }
+
+  &:user-invalid {
+    outline: 2px solid #ff8282;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.1;
+  }
+
+  &:disabled + .form-details__icon {
+    opacity: 0.1;
+  }
+}
