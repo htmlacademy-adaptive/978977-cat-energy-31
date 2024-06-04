@@ -21,7 +21,7 @@
         <picture>
           <source height="59" width="70" type="image/svg+xml" media="(min-width: 1440px)" srcset="./images/logo_cat-deck.svg">
           <source height="50" width="60" type="image/svg+xml" media="(min-width: 768px)" srcset="./images/logo_cat-tablet.svg">
-          <img src="./images/logo_cat-mobile.svg" height="38" width="33" alt="Логотип магазина" />
+          <img src="./images/logo_cat-mobile.svg" height="38" width="33" alt="Логотип магазина">
         </picture>
         <picture class="main-header__logo-text">
           <source class="main-header__logo-text" height="21" width="118" type="image/svg+xml" media="(min-width: 1440px)" srcset="./images/logo_text-d.svg">
@@ -56,7 +56,7 @@
       </h1>
       <p class="form-container__text form-container--container">
         Заполните анкету, и мы подберем
-        <br />
+        <br>
         программу питания для вашего кота
       </p>
       <form class="form-details form-container--container" action="https://echo.htmlacademy.ru/" method="post">
@@ -65,17 +65,17 @@
           <ul class="form-details__list">
             <li class="form-details__item">
               <label class="form-details__label" for="name">ИМЯ:<sup>*</sup>
-                <input class="form-details__input input" name="cat-name" id="name" type="text" placeholder="барсик" required />
+                <input class="form-details__input input" name="cat-name" id="name" type="text" placeholder="барсик" required>
               </label>
             </li>
             <li class="form-details__item">
               <label class="form-details__label" for="weight">Вес (кг):<sup>*</sup>
-                <input class="form-details__input input" name="cat-weight" id="weight" type="number" placeholder="7" required />
+                <input class="form-details__input input" name="cat-weight" id="weight" type="number" placeholder="7" required>
               </label>
             </li>
             <li class="form-details__item">
               <label class="form-details__label" for="age">Возраст (лет):
-                <input class="form-details__input input" name="cat-age" id="age" type="number" placeholder="7" />
+                <input class="form-details__input input" name="cat-age" id="age" type="number" placeholder="7">
               </label>
             </li>
           </ul>
@@ -86,19 +86,19 @@
           <ul class="form-details__filter-list">
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="slim">
-                <input class="visually-hidden form-details__input" name="program" id="slim" type="radio" value="slim" checked />
+                <input class="visually-hidden form-details__input" name="program" id="slim" type="radio" value="slim" checked>
                 <span class="form-details__mark-title" tabindex="0">похудение</span>
               </label>
             </li>
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="big">
-                <input class="visually-hidden form-details__input form-details__input--result" name="program" id="big" type="radio" value="weight" />
+                <input class="visually-hidden form-details__input form-details__input--result" name="program" id="big" type="radio" value="weight">
                 <span class="form-details__mark-title" tabindex="0">Набор массы</span>
               </label>
             </li>
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="unknown">
-                <input class="visually-hidden form-details__input form-details__input--result" name="program" id="unknown" type="radio" value="advaice" />
+                <input class="visually-hidden form-details__input form-details__input--result" name="program" id="unknown" type="radio" value="advaice">
                 <span class="form-details__mark-title" tabindex="0">Не знаю (Нужен ваш совет)</span>
               </label>
             </li>
@@ -111,14 +111,14 @@
           </legend>
           <div class="form-details__wrapper">
             <label class="form-details__label" for="email">E-mail:*</label>
-            <input class="form-details__input form-details__mail input" id="email" name="email" type="email" placeholder="kuklachev@gmail.com" required />
+            <input class="form-details__input form-details__mail input" id="email" name="email" type="email" placeholder="kuklachev@gmail.com" required>
             <svg class="form-details__icon" width="20" height="20" aria-hidden="true" focusable="false">
               <use href="./icons/stack.svg#email-stroke"></use>
             </svg>
           </div>
           <div class="form-details__wrapper">
             <label class="form-details__label" for="telephone">Телефон:*</label>
-            <input class="form-details__input form-details__telephone input" id="telephone" name="telephone" type="telephone" placeholder="8 (960) 900-60-90" required />
+            <input class="form-details__input form-details__telephone input" id="telephone" name="telephone" type="number" placeholder="8 (960) 900-60-90" required>
             <svg class="form-details__icon" width="20" height="20" aria-hidden="true" focusable="false">
               <use href="./icons/stack.svg#phone-stroke"></use>
             </svg>
@@ -135,25 +135,25 @@
           <ul class="form-details__filter-list">
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="sweetener">
-                <input class="visually-hidden form-details__input" name="additional" id="sweetener" type="checkbox" checked />
+                <input class="visually-hidden form-details__input" name="additional" id="sweetener" type="checkbox" checked>
                 <span class="form-details__mark-title" tabindex="0">сахарозаменитель</span>
               </label>
             </li>
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="water">
-                <input class="visually-hidden form-details__input" name="additional" id="water" type="checkbox" />
+                <input class="visually-hidden form-details__input" name="additional" id="water" type="checkbox">
                 <span class="form-details__mark-title" tabindex="0">питьевая вода</span>
               </label>
             </li>
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="milk">
-                <input class="visually-hidden form-details__input" name="additional" id="milk" type="checkbox" />
+                <input class="visually-hidden form-details__input" name="additional" id="milk" type="checkbox">
                 <span class="form-details__mark-title" tabindex="0">молоко</span>
               </label>
             </li>
             <li class="form-details__filter-item">
               <label class="form-details__filter-label" for="vitamins">
-                <input class="visually-hidden form-details__input" name="additional" id="vitamins" type="checkbox" />
+                <input class="visually-hidden form-details__input" name="additional" id="vitamins" type="checkbox">
                 <span class="form-details__mark-title" tabindex="0">витамины</span>
               </label>
             </li>
