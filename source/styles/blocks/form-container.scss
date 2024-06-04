@@ -6,16 +6,6 @@
   }
 }
 
-.form-container--container {
-  @media (min-width: $tablet-width) {
-    padding: 0 70px;
-  }
-
-  @media (min-width: $desktop-width) {
-    padding: 0;
-  }
-}
-
 .form-container__title {
   font-family: $primary-font;
   font-size: 36px;
@@ -26,6 +16,10 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 

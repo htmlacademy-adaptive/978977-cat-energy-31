@@ -6,10 +6,11 @@
 .main-header__logo-wrapper {
   max-width: 320px;
   margin: 0 auto;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     display: flex;
-    width: 708px;
+    min-width: 708px;
     justify-content: space-between;
     margin: 0 auto;
     padding: 25px 30px;
@@ -17,7 +18,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
+    min-width: 1220px;
     padding: 64px 110px;
   }
 }

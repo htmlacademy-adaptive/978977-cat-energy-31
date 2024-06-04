@@ -9,7 +9,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: end;
-    width: 590px;
+    min-width: 590px;
     background: none;
   }
 }
@@ -81,6 +81,7 @@
   }
 }
 
+/* проверить
 .main-nav__wrapper {
   text-align: center;
   align-items: center;
@@ -95,6 +96,7 @@
     justify-content: flex-end;
   }
 }
+*/
 
 .main-nav__list {
   list-style: none;
