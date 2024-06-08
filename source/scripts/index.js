@@ -9,4 +9,3 @@ if (navToggle && navMain) {
     navMain.classList.toggle('main-nav--opened');
   });
 }
-
